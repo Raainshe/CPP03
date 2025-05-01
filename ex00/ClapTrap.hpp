@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 19:30:19 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/04/30 19:31:50 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/05/01 08:36:21 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,24 @@
 #include <string>
 
 
+class ClapTrap
+{
+    private:
+        std::string _name;
+        unsigned int _hp;
+        unsigned int _ep;
+        unsigned int _aDamage;
+    public:
+        ClapTrap();
+        ClapTrap(const std::string name);
+        ~ClapTrap();
+
+        void attack(const std::string& target);
+        void takeDamage(unsigned int amount);
+        void beRepaired(unsigned int amount);
+
+        void getClapTrapInfo() const;
+
+};
 
 #endif
