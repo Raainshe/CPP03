@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 19:30:19 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/05/01 08:36:21 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/05/04 12:56:30 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ class ClapTrap
         void beRepaired(unsigned int amount);
 
         void getClapTrapInfo() const;
+        unsigned int getAttackDamage() const;
 
 };
 

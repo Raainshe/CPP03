@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 19:30:13 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/05/01 08:39:20 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/05/04 12:56:55 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,4 +91,9 @@ void ClapTrap::beRepaired(unsigned int amount)
 void ClapTrap::getClapTrapInfo() const
 {
     std::cout << "Name: " << _name << ", HP: " << _hp << ", EP: " << _ep << ", Attack Damage: " << _aDamage << std::endl;
+}
+
+unsigned int ClapTrap::getAttackDamage() const
+{
+    return _aDamage;
 }
