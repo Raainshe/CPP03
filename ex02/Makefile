@@ -6,7 +6,7 @@
 #    By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/04 13:07:14 by rmakoni           #+#    #+#              #
-#    Updated: 2025/05/06 14:56:50 by rmakoni          ###   ########.fr        #
+#    Updated: 2025/05/12 10:47:35 by rmakoni          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ NAME = claptrap
 
 SRC = 	main.cpp \
 		ClapTrap.cpp \
-		ScavTrap.cpp 
+		ScavTrap.cpp \
+		FragTrap.cpp \
 		
 OBJ = $(SRC:.cpp=.o)
 
