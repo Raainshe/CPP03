@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 19:30:19 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/05/04 13:35:33 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/05/04 13:36:15 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 class ClapTrap
 {
-    private:
+    protected:
         std::string _name;
         unsigned int _hp;
         unsigned int _ep;

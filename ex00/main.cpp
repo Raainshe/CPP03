@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 19:30:21 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/05/04 13:03:47 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/05/06 15:21:14 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,6 @@ int main(void)
     std::cout << "Clap3 (assigned from Draugr):" << std::endl;
     clap3.getClapTrapInfo();
 
-
     std::cout << "\n--- Destruction ---" << std::endl;
-    // Destructors will be called automatically when main exits
-
     return 0;
 }
