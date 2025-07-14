@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 10:27:06 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/05/12 10:51:04 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/07/14 15:09:10 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ FragTrap::FragTrap() : ClapTrap()
     this->_aDamage = 30;
 }
 
-FragTrap::FragTrap(const std::string& name)
+FragTrap::FragTrap(const std::string& name) : ClapTrap(name)
 {
     std::cout << "FragTrap constructor called" << std::endl;
     this->_name = name;
