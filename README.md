@@ -28,14 +28,14 @@ make
 ```bash
 cd ex01
 make
-./scavtrap # or the name of your executable if different
+./claptrap # or the name of your executable if different
 ```
 
 ### ex02
 ```bash
 cd ex02
 make
-./fragtrap # or the name of your executable if different, e.g., claptrap
+./claptrap # or the name of your executable if different, e.g., claptrap
 ```
 
 **Note:** The executable name might vary depending on your `Makefile` configuration (e.g., it might be `claptrap`, `scavtrap`, `fragtrap`, or a common name like `app` or `program`). Please check your `Makefile` for the exact executable name if the above commands don't work.
